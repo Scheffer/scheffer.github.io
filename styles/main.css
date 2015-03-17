@@ -405,358 +405,380 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, ../../src/styles/_solarized-dark.scss */
+/* line 1, ../../src/styles/_monokai.scss */
 .highlight {
-  background-color: #073642;
+  background-color: #272F38;
   color: #93a1a1;
 }
 
-/* line 6, ../../src/styles/_solarized-dark.scss */
+/* line 2, ../../src/styles/_monokai.scss */
 .highlight .c {
-  color: #586e75 !important;
-  font-style: italic !important;
+  color: #75715e;
 }
 
-/* line 11, ../../src/styles/_solarized-dark.scss */
-.highlight .cm {
-  color: #586e75 !important;
-  font-style: italic !important;
-}
-
-/* line 16, ../../src/styles/_solarized-dark.scss */
-.highlight .cp {
-  color: #586e75 !important;
-  font-style: italic !important;
-}
-
-/* line 21, ../../src/styles/_solarized-dark.scss */
-.highlight .c1 {
-  color: #586e75 !important;
-  font-style: italic !important;
-}
-
-/* line 26, ../../src/styles/_solarized-dark.scss */
-.highlight .cs {
-  color: #586e75 !important;
-  font-weight: bold !important;
-  font-style: italic !important;
-}
-
-/* line 32, ../../src/styles/_solarized-dark.scss */
+/* Comment */
+/* line 3, ../../src/styles/_monokai.scss */
 .highlight .err {
-  color: #dc322f !important;
-  background: none !important;
+  color: #960050;
+  background-color: #1e0010;
 }
 
-/* line 37, ../../src/styles/_solarized-dark.scss */
+/* Error */
+/* line 4, ../../src/styles/_monokai.scss */
 .highlight .k {
-  color: #cb4b16 !important;
+  color: #66d9ef;
 }
 
-/* line 41, ../../src/styles/_solarized-dark.scss */
-.highlight .o {
-  color: #93a1a1 !important;
-  font-weight: bold !important;
+/* Keyword */
+/* line 5, ../../src/styles/_monokai.scss */
+.highlight .l {
+  color: #ae81ff;
 }
 
-/* line 46, ../../src/styles/_solarized-dark.scss */
-.highlight .p {
-  color: #93a1a1 !important;
-}
-
-/* line 50, ../../src/styles/_solarized-dark.scss */
-.highlight .ow {
-  color: #2aa198 !important;
-  font-weight: bold !important;
-}
-
-/* line 55, ../../src/styles/_solarized-dark.scss */
-.highlight .gd {
-  color: #93a1a1 !important;
-  background-color: #372c34 !important;
-  display: inline-block;
-}
-
-/* line 61, ../../src/styles/_solarized-dark.scss */
-.highlight .gd .x {
-  color: #93a1a1 !important;
-  background-color: #4d2d33 !important;
-  display: inline-block;
-}
-
-/* line 67, ../../src/styles/_solarized-dark.scss */
-.highlight .ge {
-  color: #93a1a1 !important;
-  font-style: italic !important;
-}
-
-/* line 72, ../../src/styles/_solarized-dark.scss */
-.highlight .gr {
-  color: #aa0000;
-}
-
-/* line 76, ../../src/styles/_solarized-dark.scss */
-.highlight .gh {
-  color: #586e75 !important;
-}
-
-/* line 80, ../../src/styles/_solarized-dark.scss */
-.highlight .gi {
-  color: #93a1a1 !important;
-  background-color: #1a412b !important;
-  display: inline-block;
-}
-
-/* line 86, ../../src/styles/_solarized-dark.scss */
-.highlight .gi .x {
-  color: #93a1a1 !important;
-  background-color: #355720 !important;
-  display: inline-block;
-}
-
-/* line 92, ../../src/styles/_solarized-dark.scss */
-.highlight .go {
-  color: #888888;
-}
-
-/* line 96, ../../src/styles/_solarized-dark.scss */
-.highlight .gp {
-  color: #555555;
-}
-
-/* line 100, ../../src/styles/_solarized-dark.scss */
-.highlight .gs {
-  color: #93a1a1 !important;
-  font-weight: bold !important;
-}
-
-/* line 105, ../../src/styles/_solarized-dark.scss */
-.highlight .gu {
-  color: #6c71c4 !important;
-}
-
-/* line 109, ../../src/styles/_solarized-dark.scss */
-.highlight .gt {
-  color: #aa0000;
-}
-
-/* line 113, ../../src/styles/_solarized-dark.scss */
-.highlight .kc {
-  color: #859900 !important;
-  font-weight: bold !important;
-}
-
-/* line 118, ../../src/styles/_solarized-dark.scss */
-.highlight .kd {
-  color: #268bd2 !important;
-}
-
-/* line 122, ../../src/styles/_solarized-dark.scss */
-.highlight .kp {
-  color: #cb4b16 !important;
-  font-weight: bold !important;
-}
-
-/* line 127, ../../src/styles/_solarized-dark.scss */
-.highlight .kr {
-  color: #d33682 !important;
-  font-weight: bold !important;
-}
-
-/* line 132, ../../src/styles/_solarized-dark.scss */
-.highlight .kt {
-  color: #2aa198 !important;
-}
-
-/* line 136, ../../src/styles/_solarized-dark.scss */
+/* Literal */
+/* line 6, ../../src/styles/_monokai.scss */
 .highlight .n {
-  color: #268bd2 !important;
+  color: #f8f8f2;
 }
 
-/* line 140, ../../src/styles/_solarized-dark.scss */
-.highlight .na {
-  color: #268bd2 !important;
+/* Name */
+/* line 7, ../../src/styles/_monokai.scss */
+.highlight .o {
+  color: #f92672;
 }
 
-/* line 144, ../../src/styles/_solarized-dark.scss */
-.highlight .nb {
-  color: #859900 !important;
+/* Operator */
+/* line 8, ../../src/styles/_monokai.scss */
+.highlight .p {
+  color: #f8f8f2;
 }
 
-/* line 148, ../../src/styles/_solarized-dark.scss */
-.highlight .nc {
-  color: #d33682 !important;
+/* Punctuation */
+/* line 9, ../../src/styles/_monokai.scss */
+.highlight .cm {
+  color: #75715e;
 }
 
-/* line 152, ../../src/styles/_solarized-dark.scss */
-.highlight .no {
-  color: #b58900 !important;
+/* Comment.Multiline */
+/* line 10, ../../src/styles/_monokai.scss */
+.highlight .cp {
+  color: #75715e;
 }
 
-/* line 156, ../../src/styles/_solarized-dark.scss */
-.highlight .ni {
-  color: #800080;
+/* Comment.Preproc */
+/* line 11, ../../src/styles/_monokai.scss */
+.highlight .c1 {
+  color: #75715e;
 }
 
-/* line 160, ../../src/styles/_solarized-dark.scss */
-.highlight .nl {
-  color: #859900 !important;
+/* Comment.Single */
+/* line 12, ../../src/styles/_monokai.scss */
+.highlight .cs {
+  color: #75715e;
 }
 
-/* line 164, ../../src/styles/_solarized-dark.scss */
-.highlight .ne {
-  color: #268bd2 !important;
-  font-weight: bold !important;
+/* Comment.Special */
+/* line 13, ../../src/styles/_monokai.scss */
+.highlight .ge {
+  font-style: italic;
 }
 
-/* line 169, ../../src/styles/_solarized-dark.scss */
-.highlight .nf {
-  color: #268bd2 !important;
-  font-weight: bold !important;
+/* Generic.Emph */
+/* line 14, ../../src/styles/_monokai.scss */
+.highlight .gs {
+  font-weight: bold;
 }
 
-/* line 174, ../../src/styles/_solarized-dark.scss */
-.highlight .nn {
-  color: #b58900 !important;
+/* Generic.Strong */
+/* line 15, ../../src/styles/_monokai.scss */
+.highlight .kc {
+  color: #66d9ef;
 }
 
-/* line 178, ../../src/styles/_solarized-dark.scss */
-.highlight .nt {
-  color: #268bd2 !important;
-  font-weight: bold !important;
+/* Keyword.Constant */
+/* line 16, ../../src/styles/_monokai.scss */
+.highlight .kd {
+  color: #66d9ef;
 }
 
-/* line 183, ../../src/styles/_solarized-dark.scss */
-.highlight .nx {
-  color: #b58900 !important;
+/* Keyword.Declaration */
+/* line 17, ../../src/styles/_monokai.scss */
+.highlight .kn {
+  color: #f92672;
 }
 
-/* line 187, ../../src/styles/_solarized-dark.scss */
-.highlight .bp {
-  color: #999999;
+/* Keyword.Namespace */
+/* line 18, ../../src/styles/_monokai.scss */
+.highlight .kp {
+  color: #66d9ef;
 }
 
-/* line 191, ../../src/styles/_solarized-dark.scss */
-.highlight .vc {
-  color: #008080;
+/* Keyword.Pseudo */
+/* line 19, ../../src/styles/_monokai.scss */
+.highlight .kr {
+  color: #66d9ef;
 }
 
-/* line 195, ../../src/styles/_solarized-dark.scss */
-.highlight .vg {
-  color: #268bd2 !important;
+/* Keyword.Reserved */
+/* line 20, ../../src/styles/_monokai.scss */
+.highlight .kt {
+  color: #66d9ef;
 }
 
-/* line 199, ../../src/styles/_solarized-dark.scss */
-.highlight .vi {
-  color: #268bd2 !important;
+/* Keyword.Type */
+/* line 21, ../../src/styles/_monokai.scss */
+.highlight .ld {
+  color: #e6db74;
 }
 
-/* line 203, ../../src/styles/_solarized-dark.scss */
-.highlight .nv {
-  color: #268bd2 !important;
-}
-
-/* line 207, ../../src/styles/_solarized-dark.scss */
-.highlight .w {
-  color: #bbbbbb;
-}
-
-/* line 211, ../../src/styles/_solarized-dark.scss */
-.highlight .mf {
-  color: #2aa198 !important;
-}
-
-/* line 215, ../../src/styles/_solarized-dark.scss */
+/* Literal.Date */
+/* line 22, ../../src/styles/_monokai.scss */
 .highlight .m {
-  color: #2aa198 !important;
+  color: #ae81ff;
 }
 
-/* line 219, ../../src/styles/_solarized-dark.scss */
-.highlight .mh {
-  color: #2aa198 !important;
-}
-
-/* line 223, ../../src/styles/_solarized-dark.scss */
-.highlight .mi {
-  color: #2aa198 !important;
-}
-
-/* line 227, ../../src/styles/_solarized-dark.scss */
-.highlight .mo {
-  color: #009999;
-}
-
-/* line 231, ../../src/styles/_solarized-dark.scss */
+/* Literal.Number */
+/* line 23, ../../src/styles/_monokai.scss */
 .highlight .s {
-  color: #2aa198 !important;
+  color: #e6db74;
 }
 
-/* line 235, ../../src/styles/_solarized-dark.scss */
+/* Literal.String */
+/* line 24, ../../src/styles/_monokai.scss */
+.highlight .na {
+  color: #a6e22e;
+}
+
+/* Name.Attribute */
+/* line 25, ../../src/styles/_monokai.scss */
+.highlight .nb {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin */
+/* line 26, ../../src/styles/_monokai.scss */
+.highlight .nc {
+  color: #a6e22e;
+}
+
+/* Name.Class */
+/* line 27, ../../src/styles/_monokai.scss */
+.highlight .no {
+  color: #66d9ef;
+}
+
+/* Name.Constant */
+/* line 28, ../../src/styles/_monokai.scss */
+.highlight .nd {
+  color: #a6e22e;
+}
+
+/* Name.Decorator */
+/* line 29, ../../src/styles/_monokai.scss */
+.highlight .ni {
+  color: #f8f8f2;
+}
+
+/* Name.Entity */
+/* line 30, ../../src/styles/_monokai.scss */
+.highlight .ne {
+  color: #a6e22e;
+}
+
+/* Name.Exception */
+/* line 31, ../../src/styles/_monokai.scss */
+.highlight .nf {
+  color: #a6e22e;
+}
+
+/* Name.Function */
+/* line 32, ../../src/styles/_monokai.scss */
+.highlight .nl {
+  color: #f8f8f2;
+}
+
+/* Name.Label */
+/* line 33, ../../src/styles/_monokai.scss */
+.highlight .nn {
+  color: #f8f8f2;
+}
+
+/* Name.Namespace */
+/* line 34, ../../src/styles/_monokai.scss */
+.highlight .nx {
+  color: #a6e22e;
+}
+
+/* Name.Other */
+/* line 35, ../../src/styles/_monokai.scss */
+.highlight .py {
+  color: #f8f8f2;
+}
+
+/* Name.Property */
+/* line 36, ../../src/styles/_monokai.scss */
+.highlight .nt {
+  color: #f92672;
+}
+
+/* Name.Tag */
+/* line 37, ../../src/styles/_monokai.scss */
+.highlight .nv {
+  color: #f8f8f2;
+}
+
+/* Name.Variable */
+/* line 38, ../../src/styles/_monokai.scss */
+.highlight .ow {
+  color: #f92672;
+}
+
+/* Operator.Word */
+/* line 39, ../../src/styles/_monokai.scss */
+.highlight .w {
+  color: #f8f8f2;
+}
+
+/* Text.Whitespace */
+/* line 40, ../../src/styles/_monokai.scss */
+.highlight .mf {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Float */
+/* line 41, ../../src/styles/_monokai.scss */
+.highlight .mh {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Hex */
+/* line 42, ../../src/styles/_monokai.scss */
+.highlight .mi {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer */
+/* line 43, ../../src/styles/_monokai.scss */
+.highlight .mo {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Oct */
+/* line 44, ../../src/styles/_monokai.scss */
 .highlight .sb {
-  color: #d14;
+  color: #e6db74;
 }
 
-/* line 239, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Backtick */
+/* line 45, ../../src/styles/_monokai.scss */
 .highlight .sc {
-  color: #d14;
+  color: #e6db74;
 }
 
-/* line 243, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Char */
+/* line 46, ../../src/styles/_monokai.scss */
 .highlight .sd {
-  color: #2aa198 !important;
+  color: #e6db74;
 }
 
-/* line 247, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Doc */
+/* line 47, ../../src/styles/_monokai.scss */
 .highlight .s2 {
-  color: #2aa198 !important;
+  color: #e6db74;
 }
 
-/* line 251, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Double */
+/* line 48, ../../src/styles/_monokai.scss */
 .highlight .se {
-  color: #dc322f !important;
+  color: #ae81ff;
 }
 
-/* line 255, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Escape */
+/* line 49, ../../src/styles/_monokai.scss */
 .highlight .sh {
-  color: #d14;
+  color: #e6db74;
 }
 
-/* line 259, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Heredoc */
+/* line 50, ../../src/styles/_monokai.scss */
 .highlight .si {
-  color: #268bd2 !important;
+  color: #e6db74;
 }
 
-/* line 263, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Interpol */
+/* line 51, ../../src/styles/_monokai.scss */
 .highlight .sx {
-  color: #d14;
+  color: #e6db74;
 }
 
-/* line 267, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Other */
+/* line 52, ../../src/styles/_monokai.scss */
 .highlight .sr {
-  color: #2aa198 !important;
+  color: #e6db74;
 }
 
-/* line 271, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Regex */
+/* line 53, ../../src/styles/_monokai.scss */
 .highlight .s1 {
-  color: #2aa198 !important;
+  color: #e6db74;
 }
 
-/* line 275, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Single */
+/* line 54, ../../src/styles/_monokai.scss */
 .highlight .ss {
-  color: #990073;
+  color: #e6db74;
 }
 
-/* line 279, ../../src/styles/_solarized-dark.scss */
+/* Literal.String.Symbol */
+/* line 55, ../../src/styles/_monokai.scss */
+.highlight .bp {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin.Pseudo */
+/* line 56, ../../src/styles/_monokai.scss */
+.highlight .vc {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Class */
+/* line 57, ../../src/styles/_monokai.scss */
+.highlight .vg {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Global */
+/* line 58, ../../src/styles/_monokai.scss */
+.highlight .vi {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Instance */
+/* line 59, ../../src/styles/_monokai.scss */
 .highlight .il {
-  color: #009999;
+  color: #ae81ff;
 }
 
-/* line 283, ../../src/styles/_solarized-dark.scss */
-.highlight div .gd, .highlight div .gd .x, .highlight div .gi, .highlight div .gi .x {
-  display: inline-block;
-  width: 100%;
+/* Literal.Number.Integer.Long */
+/* Generic Heading & Diff Header */
+/* line 62, ../../src/styles/_monokai.scss */
+.highlight .gu {
+  color: #75715e;
 }
 
+/* Generic.Subheading & Diff Unified/Comment? */
+/* line 63, ../../src/styles/_monokai.scss */
+.highlight .gd {
+  color: #f92672;
+}
+
+/* Generic.Deleted & Diff Deleted */
+/* line 64, ../../src/styles/_monokai.scss */
+.highlight .gi {
+  color: #a6e22e;
+}
+
+/* Generic.Inserted & Diff Inserted */
 /* line 28, ../../src/styles/_base.scss */
 .group {
   overflow: hidden;
@@ -802,7 +824,7 @@ body {
 }
 /* line 59, ../../src/styles/_base.scss */
 .content a:hover {
-  color: #578cdb;
+  color: #1E242B;
 }
 @media (max-width: 1250px) {
   /* line 49, ../../src/styles/_base.scss */
@@ -1056,7 +1078,7 @@ nav {
   z-index: 100;
   height: 100%;
   top: 0;
-  background: #578cdb;
+  background: #1E242B;
   width: 250px;
 }
 /* line 9, ../../src/styles/_nav.scss */
@@ -1128,7 +1150,7 @@ nav a:hover {
 /* line 68, ../../src/styles/_nav.scss */
 .nav-links {
   list-style: none;
-  background: #578cdb;
+  background: #1E242B;
   padding-left: 40px;
   font-size: 1.4em;
 }
