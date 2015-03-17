@@ -409,6 +409,7 @@ table {
 .highlight {
   background-color: #272F38;
   color: #93a1a1;
+  font-size: 17px;
 }
 
 /* line 2, ../../src/styles/_monokai.scss */
@@ -792,7 +793,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 @media (max-width: 1250px) {
   /* line 32, ../../src/styles/_base.scss */
@@ -967,7 +968,7 @@ code {
 }
 /* line 91, ../../src/styles/_markdown.scss */
 .highlight pre {
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 0;
 }
 
@@ -1207,7 +1208,7 @@ nav a:hover {
 /* line 1, ../../src/styles/_post.scss */
 .post-head {
   border-bottom: 1px solid #b8b7b7;
-  margin: 1em 0;
+  margin: 3em 0 2em;
   padding-bottom: 5px;
   position: relative;
 }
@@ -1255,15 +1256,16 @@ nav a:hover {
 /* line 42, ../../src/styles/_post.scss */
 .comments {
   margin-top: 1em;
+  margin-bottom: 3.3em;
   font-weight: bold;
   font-size: 1.2em;
 }
-/* line 47, ../../src/styles/_post.scss */
+/* line 48, ../../src/styles/_post.scss */
 .comments a {
   color: #b8b7b7;
   text-decoration: none;
 }
-/* line 52, ../../src/styles/_post.scss */
+/* line 53, ../../src/styles/_post.scss */
 .comments .icon-bubbles {
   padding: 3px 15px 5px 0;
   float: left;
